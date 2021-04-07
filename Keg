@@ -1,0 +1,9 @@
+;; Keg
+
+(source gnu melpa)
+
+(package
+ (fzf-posframe
+  (recipe . (fzf-posframe :fetcher github :repo "conao3/fzf-posframe.el"))))
+
+(dev-dependency cort)

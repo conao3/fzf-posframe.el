@@ -5,7 +5,7 @@
 ;; Author: Naoya Yamashita <conao3@gmail.com>
 ;; Version: 0.0.1
 ;; Keywords: convenience
-;; Package-Requires: ((emacs "26.1"))
+;; Package-Requires: ((emacs "26.1") (posframe "0.8.5"))
 ;; URL: https://github.com/conao3/fzf-posframe.el
 
 ;; This program is free software: you can redistribute it and/or modify
@@ -27,6 +27,8 @@
 
 
 ;;; Code:
+
+(require 'posframe)
 
 (defgroup fzf-posframe nil
   "Show fzf window via posframe."
